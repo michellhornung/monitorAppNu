@@ -76,16 +76,16 @@ export default function Main() {
           }}
           >
             <CardHeader>
-              <Icon name="attach-money" size={28} color="#666" />
-              <Icon name="visibility-off" size={28} color="#666" />
+              <Icon name="mood-bad" size={35} color="#fff" />
+              {/* <Icon name="visibility-off" size={28} color="#666" /> */}
             </CardHeader>
             <CardContent>
-              <Title>Saldo disponível</Title>
-              <Description>R$ 197.611,65</Description>
+              <Title>Houston we have a problem!</Title>
+              <Description>Existem serviços à serem analisados e corrigidos.</Description>
             </CardContent>
             <CardFooter>
               <Annotation>
-                Transferência de R$ 20,00 recebida de Jean Claudio Vandjaime hoje às 06:00h
+                Estamos a 100 dias sem um problema. Último registro foi dia 00/00/0000 às 00:00 horas. 
               </Annotation>
             </CardFooter>
           </Card>

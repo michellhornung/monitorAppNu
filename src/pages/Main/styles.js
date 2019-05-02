@@ -17,7 +17,7 @@ export const Content = styled.View`
 
 export const Card = styled(Animated.View)`
   flex: 1;
-  background: #FFF;
+  background: #e57373;
   border-radius: 4px;
   margin: 0 20px;
   height: 100%;
@@ -28,7 +28,7 @@ export const Card = styled(Animated.View)`
 `;
 
 export const CardHeader = styled.View`
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 30px;
@@ -36,19 +36,27 @@ export const CardHeader = styled.View`
 
 export const CardContent = styled.View`
   flex: 1;
-  padding: 0 30px;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  text-align: center;
 `;
 
 export const Title = styled.Text`
-  font-size: 13px;
-  color: #999;
+  font-size: 28px;
+  color: #fff;
+  fontWeight: bold;
+  text-align: center;
 `;
 
 export const Description = styled.Text`
-  font-size: 32px;
+  font-size: 16px;
   margin-top: 3px;
-  color: #333;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 `;
 
 export const CardFooter = styled.View`
