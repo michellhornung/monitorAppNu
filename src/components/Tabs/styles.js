@@ -22,6 +22,16 @@ export const TabItem = styled.View`
   justify-content: space-between;
 `;
 
+export const TabItemRed = styled.View`
+  width: 100px;
+  height: 100px;
+  background: rgba(218, 76, 75, 0.8);
+  border-radius: 3px;
+  margin-left: 10px;
+  padding: 10px;
+  justify-content: space-between;
+`;
+
 export const TabText = styled.Text`
   font-size: 13px;
   color: #FFF;

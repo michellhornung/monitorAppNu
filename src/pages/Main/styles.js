@@ -17,6 +17,18 @@ export const Content = styled.View`
 
 export const Card = styled(Animated.View)`
   flex: 1;
+  background: #4cb050;
+  border-radius: 4px;
+  margin: 0 20px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+`;
+
+export const CardWithError = styled(Animated.View)`
+  flex: 1;
   background: #e57373;
   border-radius: 4px;
   margin: 0 20px;

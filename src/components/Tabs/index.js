@@ -3,7 +3,7 @@ import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import {
-  Container, TabsContainer, TabItem, TabText,
+  Container, TabsContainer, TabItem, TabItemRed, TabText,
 } from './styles';
 
 export default function Tabs({ translateY }) {
@@ -24,25 +24,25 @@ export default function Tabs({ translateY }) {
     }}
     >
       <TabsContainer>
+        <TabItemRed>
+          <Icon name="business-center" size={24} color="#FFF" />
+          <TabText>LH TEC</TabText>
+        </TabItemRed>
         <TabItem>
-          <Icon name="person-add" size={24} color="#FFF" />
-          <TabText>Indicar amigos</TabText>
+          <Icon name="business-center" size={24} color="#FFF" />
+          <TabText>DKVOX</TabText>
         </TabItem>
         <TabItem>
-          <Icon name="chat-bubble-outline" size={24} color="#FFF" />
-          <TabText>Cobrar</TabText>
+          <Icon name="business-center" size={24} color="#FFF" />
+          <TabText>RESLUT</TabText>
         </TabItem>
         <TabItem>
-          <Icon name="arrow-downward" size={24} color="#FFF" />
-          <TabText>Depositar</TabText>
+          <Icon name="business-center" size={24} color="#FFF" />
+          <TabText>YYZ</TabText>
         </TabItem>
         <TabItem>
-          <Icon name="arrow-upward" size={24} color="#FFF" />
-          <TabText>Transferir</TabText>
-        </TabItem>
-        <TabItem>
-          <Icon name="lock" size={24} color="#FFF" />
-          <TabText>Bloquear cartão</TabText>
+          <Icon name="business-center" size={24} color="#FFF" />
+          <TabText>HAMMERCO</TabText>
         </TabItem>
       </TabsContainer>
     </Container>
