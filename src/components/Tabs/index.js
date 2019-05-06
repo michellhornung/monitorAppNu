@@ -1,9 +1,10 @@
 import React from 'react';
+import { TouchableOpacity } from 'react-native';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import {
-  Container, TabsContainer, TabItem, TabItemRed, TabText,
+  Container, TabsContainer, TabItem, TabItemRed, TabItemYellow, TabText,
 } from './styles';
 
 export default function Tabs({ translateY }) {
@@ -24,26 +25,40 @@ export default function Tabs({ translateY }) {
     }}
     >
       <TabsContainer>
-        <TabItemRed>
-          <Icon name="business-center" size={24} color="#FFF" />
-          <TabText>LH TEC</TabText>
-        </TabItemRed>
-        <TabItem>
-          <Icon name="business-center" size={24} color="#FFF" />
-          <TabText>DKVOX</TabText>
-        </TabItem>
-        <TabItem>
-          <Icon name="business-center" size={24} color="#FFF" />
-          <TabText>RESLUT</TabText>
-        </TabItem>
+        <TouchableOpacity>
+          <TabItemRed>
+            <Icon name="business-center" size={24} color="#FFF" />
+            <TabText>LH TEC</TabText>
+          </TabItemRed>
+        </TouchableOpacity>
+        
+        <TouchableOpacity>
+          <TabItemYellow>
+            <Icon name="business-center" size={24} color="#FFF" />
+            <TabText>DKVOX</TabText>
+          </TabItemYellow>
+        </TouchableOpacity>
+
+        <TouchableOpacity>
+          <TabItem>
+            <Icon name="business-center" size={24} color="#FFF" />
+            <TabText>RESLUT</TabText>
+          </TabItem>
+        </TouchableOpacity>
+        
+        <TouchableOpacity>
         <TabItem>
           <Icon name="business-center" size={24} color="#FFF" />
           <TabText>YYZ</TabText>
         </TabItem>
-        <TabItem>
-          <Icon name="business-center" size={24} color="#FFF" />
-          <TabText>HAMMERCO</TabText>
-        </TabItem>
+        </TouchableOpacity>
+
+        <TouchableOpacity>
+          <TabItem>
+            <Icon name="business-center" size={24} color="#FFF" />
+            <TabText>HAMMERCO</TabText>
+          </TabItem>
+        </TouchableOpacity>
       </TabsContainer>
     </Container>
   );
