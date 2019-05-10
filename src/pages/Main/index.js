@@ -25,7 +25,7 @@ const Main = () => (
 
 {/* HERE COMES THE LOGIC TO SHOW GREEN OR RED CARD  */}
 
-        <Card style={{
+        {/* <Card style={{
           transform: [{
             translateY: translateY.interpolate({
               inputRange: [-350, 0, 380],
@@ -47,10 +47,10 @@ const Main = () => (
               Estamos a 100 dias sem registro de problema. Último registro foi dia 00/00/0000 às 00:00 horas.
             </Annotation>
           </CardFooter>
-        </Card>
+        </Card> */}
 
 
-        {/* <CardWithError style={{
+        <CardWithError style={{
             transform: [{
               translateY: translateY.interpolate({
                 inputRange: [-350, 0, 380],
@@ -73,7 +73,7 @@ const Main = () => (
               </Annotation>
             </CardFooter>
 
-          </CardWithError> */}
+          </CardWithError>
 
       </PanGestureHandler>
     </Content>
