@@ -17,15 +17,6 @@ export default function Menu({ translateY }) {
       }),
     }}
     >
-      {/* <Code>
-        <QRCode
-          value="https://rocketseat.com.br"
-          size={80}
-          fgColor="#fff"
-          bgColor="#8B10AE"
-        />
-      </Code> */}
-
       <Nav>
         <TouchableOpacity>
           <NavItem>
@@ -52,7 +43,6 @@ export default function Menu({ translateY }) {
       <SignOutButton onPress={() => { }}>
         <SignOutButtonText>SAIR DO APP</SignOutButtonText>
       </SignOutButton>
-
-    </Container >
+    </Container>
   );
 }
