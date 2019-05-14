@@ -69,7 +69,7 @@ const Main = () => (
             </CardContent>
             <CardFooter>
               <Annotation>
-                Estamos a 100 dias sem um problema. Último registro foi dia 00/00/0000 às 00:00 horas.
+                Estamos a 0 dias sem um problema. Último registro foi dia 00/00/0000 às 00:00 horas.
               </Annotation>
             </CardFooter>
 

@@ -8,7 +8,7 @@ import {
   Version,
 } from './styles';
 
-export default class SignUp extends Component {
+export default class SiteInfo extends Component {
   static navigationOptions = {
     header: null,
   };
